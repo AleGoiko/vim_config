@@ -1,0 +1,7 @@
+Installation:
+
+git clone git://github.com/alegoiko/vim_config.git ~/.vim
+
+Symlinks:
+
+~/.vimrc -> ~/.vim/.vimrc
