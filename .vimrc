@@ -15,6 +15,8 @@ inoremap <S-Tab> <C-D>
 vnoremap <Tab> >gv
 vnoremap <S-Tab> <gv
 
+let g:indent_guides_enable_on_vim_startup = 1
+
 :set guioptions-=m  "remove menu bar
 :set guioptions-=T  "remove toolbar
 :set guioptions-=r  "remove right-hand scroll bar
@@ -35,8 +37,9 @@ nmap <F8> <Esc>:bn<CR>
 
 set wildmenu
 set mouse=a
-if has('gui_running')
-  set guifont=Terminus\ 12
-endif
 
 au BufNewFile,BufRead *.hjs set filetype=handlebars
+
+" Change directory to the current buffer when opening files.
+set autochdir
+

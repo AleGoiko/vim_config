@@ -10,3 +10,12 @@
 [submodule "bundle/taglist"]
 	path = bundle/taglist
 	url = https://github.com/vim-scripts/taglist.vim.git
+[submodule "vim-indent-guides"]
+	path = vim-indent-guides
+	url = https://github.com/nathanaelkane/vim-indent-guides
+[submodule "vim-jade"]
+	path = vim-jade
+	url = git://github.com/digitaltoad/vim-jade.git
+[submodule "nerdtree"]
+	path = nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
