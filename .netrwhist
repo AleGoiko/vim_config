@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/alex/src/psp_admin4/app/controllers'
+let g:netrw_dirhist_2='/home/alex/src/psp_admin4'
+let g:netrw_dirhist_3='/home/alex/src/psp_admin4/app'
+let g:netrw_dirhist_4='/home/alex/src/psp_admin4/app/controllers'
